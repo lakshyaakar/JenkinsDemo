@@ -6,11 +6,6 @@ app.get("/", (req,res)=>{
     res.send("<h1>WELCOME TO NODE APP</h1>")
 })
 
-app.get("/about", (req,res)=>{
-    console.log("In the /about Path")
-    res.send("<h1>ABOUT NODE APP</h1>")
-})
-
 app.get("/home", (req,res)=>{
     console.log("In the /home Path")
     res.send("<h1>HOME PAGE</h1>")
